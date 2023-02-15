@@ -1,0 +1,68 @@
+.form-control {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn-primary {
+  margin-bottom: 2rem;
+  background-color: #0052cc;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #003c9a;
+  cursor: pointer;
+}
+
+.my-auto {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.form-control::-moz-placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.form-control:-ms-input-placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.form-control::-ms-input-placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.form-control::placeholder {
+  color: gray;
+  font-style: italic;
+}
